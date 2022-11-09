@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #000;
+  margin: 0;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+hr {
+  color: rgb(82, 78, 78);
+}
+
+.wrapper {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.personal-data,
+.profile,
+.education,
+.achievments,
+.lang {
+  width: 100%;
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: rgb(95, 93, 93);
+}
+
+.personal-title,
+.education-title,
+.skills-title,
+.lang-title {
+  width: 25%;
+  float: left;
+}
+
+.personal-value,
+.education-value,
+.skills-value,
+.lang-value {
+  width: 75%;
+  float: left;
+}
+
+.personal-title-list,
+.personal-value-list,
+.education-title-list,
+.education-value-list,
+.skills-title-list,
+.skills-value-list,
+.lang-title-list,
+.lang-value-list {
+  list-style: none;
+  text-align: end;
+  line-height: 1.5rem;
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.personal-value-list,
+.education-value-list,
+.skills-value-list,
+.lang-value-list {
+  text-align: start;
+}
+
+.personal-title-list-item,
+.personal-value-list-item, 
+.education-title-list-item,
+.education-value-list-item, 
+.skills-title-list-item,
+.skills-value-list-item,
+.lang-title-list-item,
+.lang-value-list-item {
+  font-size: 0.9rem;
+  color: rgb(100, 98, 98);
+}
+
+.personal-value-list-item,
+.education-value-list-item,
+.skills-value-list-item,
+.lang-value-list-item {
+  color: #000;
+}
+
+.profile-info,
+.achievments-info {
+  font-size: 0.85rem;
+}
+
+.preffers-info {
+  padding: 6px 0 10px 0;
+}
